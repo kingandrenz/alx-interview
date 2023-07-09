@@ -7,6 +7,10 @@ def pascal_triangle(n):
     triangle = []
 
     if not isinstance(n, int) or n <= 0:
+        """
+        returns an empty list if n not an
+        integer or less than 0
+        """
         return triangle
     else:
         for i in range(n):
